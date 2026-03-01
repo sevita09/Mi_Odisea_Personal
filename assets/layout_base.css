@@ -1,0 +1,71 @@
+:root {
+    --dark-bg: #0B0F19;
+    --card-bg: #2a3038;
+    --text-color-info: #0099ff;
+    --border-color: #30363D;
+    --text-muted: #8892a4;
+    --text-primary: #cdd6f4;
+    --font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Contenedor principal */
+.map-layout {
+    background-color: var(--dark-bg);
+    min-height: 100vh;
+    color: var(--text-primary);
+    font-family: var(--font-family);
+}
+
+/* coloca el nabvar en su lugar */
+.navbar {
+  top: 0rem;
+  margin-left: -1.25rem;
+  bottom: 0;
+  height: 1.5rem;
+  padding: 1.25rem 0.01rem;
+}
+.flex-grow-1 { flex-grow: 200; }
+
+/* Estilo del nombre de la app en el navbar */
+.nav-brand-name {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.939);
+  margin-left: 1rem;
+}
+
+.brand-icon { font-size: 1.4rem; }
+.navbar-brand-custom { font-weight: 700; letter-spacing: 0.05em; color: var(--text-color-info); }
+.no-decor { text-decoration: none; }
+.btn.btn-add {
+  background-color: var(--region-blue);
+  border-color: var(--region-blue);
+  color: #fff;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+/* Tarjetas base */
+.base-card { background-color: var(--card-bg);}
+.base-card.no-padding { padding: 2;}
+.card-header-dark { background-color: var(--card-bg); border-radius: 25px;}
+.header-title { color: var(--text-color-info); border-radius: 25px;}
+
+/* Mapa */
+.map-graph { height: 500px;
+        background-color: var(--dark-bg);}
+.zoom-btn { font-size: 0.72rem; border-radius: 15px; }
+
+/* Progreso */
+.progress-panel {  height: 494px; max-height: 494px; border-radius: 25px;}
+
+/* KPI */
+.kpi-title { color: var(--text-color-info); }
+.kpi-value { color: var(--text-color-info); }
+
+/* Utilidades */
+.no-padding { padding: 0 }
+
+/* Padding utilizado por el contenedor principal del layout */
+.container-padding { padding: -10px 24px 24px; overflow: hidden; }

@@ -1,0 +1,11 @@
+id_ciudad,pais,iso_alpha,ciudad,lat,lon,continente
+1,España,ESP,Madrid,40.4168,-3.7038,Europa
+2,Francia,FRA,París,48.8566,2.3522,Europa
+3,Italia,ITA,Roma,41.9028,12.4964,Europa
+4,México,MEX,Ciudad de México,19.4326,-99.1332,América
+5,Argentina,ARG,Buenos Aires,-34.6037,-58.3816,América
+6,Japón,JPN,Tokio,35.6762,139.6503,Asia
+7,Tailandia,THA,Bangkok,13.7563,100.5018,Asia
+8,Marruecos,MAR,Marrakech,31.6295,-7.9811,África
+9,Australia,AUS,Sídney,-33.8688,151.2093,Oceanía
+10,Estados Unidos,USA,Nueva York,40.7128,-74.0060,América
